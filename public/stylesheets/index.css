@@ -1,0 +1,84 @@
+body{ 
+    min-height: 100vh; 
+    margin: 0; 
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    background: #f5f5f5;
+}
+header{ 
+    min-height:50px;
+    background: #4b7a47; 
+    color:white;
+}
+footer{ 
+    min-height:50px; 
+    background: #4b7a47; 
+    text-align: center;
+    padding: 10px;
+}
+#main{
+    padding: 50px;
+    
+} 
+.card{
+    background:#bfffba;
+    padding: 0%;
+    text-align: center;
+}
+.btn{
+    background: #333333;
+    border: #111111;
+    margin: 10px;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.btn:hover{
+    background-color: #304f2d;
+
+}
+.btn:focus{
+    all:none;
+    background-color: #333333;
+
+}
+.btn:active{
+    all:none;
+    background-color: #333333;
+
+}
+.btn:visited{
+    all:none;
+    background-color: #333333;
+}
+.btn:link{
+    all:none;
+    background-color: #333333;
+}
+#linked{
+    height: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+h1{
+    padding: 10px;
+}
+#git{
+    height: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+a{
+    color: #f5f5f5; 
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color: #304f2d;
+}
+#copyr{
+    color: #f5f5f5;
+}
