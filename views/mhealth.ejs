@@ -7,41 +7,168 @@
     <title>Nirogi</title>
     <link rel="stylesheet" href="stylesheets/index.css">
     <style>
-      .form-group{
+      .mental{
         padding-left: 20px;
         padding-top: 10px;
         padding-bottom: 10px;
       }
+      h2{
+        text-align: center;
+      }
+      input[type="radio"] {
+        margin-bottom: 0;  
+        padding: 0;
+      }
+      fieldset{
+        padding: 10px;
+      }
+      p{
+        font-weight: bold;
+      }
+      
     </style>
 </head>
 <body>
     <header>
         <h1><a href="/" id="head">Nirogi</a> </h1>
     </header>
-    <div clas="mental">
-        <form action="/public/Scripts/mhealth.js">
-          <fieldset class="form-group">
-            <div class="row">
-              <legend class="col-form-label col-sm-2 pt-0"><span>1. </span>Little interest or pleasure in doing things</legend>
-              <div class="col-sm-10">
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                  <label class="form-check-label" for="gridRadios1">
-                    First radio
-                  </label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                  <label class="form-check-label" for="gridRadios2">
-                    Second radio
-                  </label>
-                </div>
-              </div>
-            </div>
-          </fieldset>  
-        </form>
-        
+    <div class="container">
+      <h2>DEPRESSION TEST</h2>
+      <div clas="mental container">
+        <form action="/action_page.php" class="mental">
+          <fieldset>
+            <p>1. Little interest or pleasure in doing things</p>
+            <input type="radio" class="first" name="option1" value="first" required>
+            <label for="male">Not at all</label><br>
+            <input type="radio" class="second" name="option1" value="second" required>
+            <label for="female">Several Days</label><br>
+            <input type="radio" class="third" name="option1" value="third" required>
+            <label for="other">More than half the days</label><br>
+            <input type="radio" class="fourth" name="option1" value="fourth" required>
+            <label for="other">Nearly every day</label>
+              
+          </fieldset>
+
+          <fieldset>
+            <p>2. Feeling down, depressed, or hopeless</p>
+            <input type="radio" class="first" name="option2" value="first">
+            <label for="male">Not at all</label><br>
+            <input type="radio" class="second" name="option2" value="second">
+            <label for="female">Several Days</label><br>
+            <input type="radio" class="third" name="option2" value="third">
+            <label for="other">More than half the days</label><br>
+            <input type="radio" class="fourth" name="option2" value="fourth">
+            <label for="other">Nearly every day</label>
+              
+          </fieldset>
+
+          <fieldset>
+            <p>3. Trouble falling or staying asleep, or sleeping too much</p>
+            <input type="radio" class="first" name="option3" value="first">
+            <label for="male">Not at all</label><br>
+            <input type="radio" class="second" name="option3" value="second">
+            <label for="female">Several Days</label><br>
+            <input type="radio" class="third" name="option3" value="third">
+            <label for="other">More than half the days</label><br>
+            <input type="radio" class="fourth" name="option3" value="fourth">
+            <label for="other">Nearly every day</label>
+              
+          </fieldset>
+          
+          <fieldset>
+            <p>4. Feeling tired or having little energy</p>
+            <input type="radio" class="first" name="option4" value="first">
+            <label for="male">Not at all</label><br>
+            <input type="radio" class="second" name="option4" value="second">
+            <label for="female">Several Days</label><br>
+            <input type="radio" class="third" name="option4" value="third">
+            <label for="other">More than half the days</label><br>
+            <input type="radio" class="fourth" name="option4" value="fourth">
+            <label for="other">Nearly every day</label>
+              
+          </fieldset>
+
+          <fieldset>
+            <p>5. Poor appetite or overeating</p>
+            <input type="radio" class="first" name="option5" value="first">
+            <label for="male">Not at all</label><br>
+            <input type="radio" class="second" name="option5" value="second">
+            <label for="female">Several Days</label><br>
+            <input type="radio" class="third" name="option5" value="third">
+            <label for="other">More than half the days</label><br>
+            <input type="radio" class="fourth" name="option5" value="fourth">
+            <label for="other">Nearly every day</label>
+              
+          </fieldset>
+
+          <fieldset>
+            <p>6. Feeling bad about yourself - or that you are a failure or have let yourself or your family down</p>
+            <input type="radio" class="first" name="option6" value="first">
+            <label for="male">Not at all</label><br>
+            <input type="radio" class="second" name="option6" value="second">
+            <label for="female">Several Days</label><br>
+            <input type="radio" class="third" name="option6" value="third">
+            <label for="other">More than half the days</label><br>
+            <input type="radio" class="fourth" name="option6" value="fourth">
+            <label for="other">Nearly every day</label>
+              
+          </fieldset>
+
+          <fieldset>
+            <p>7. Trouble concentrating on things, such as reading the newspaper or watching television</p>
+            <input type="radio" class="first" name="option7" value="first">
+            <label for="male">Not at all</label><br>
+            <input type="radio" class="second" name="option7" value="second">
+            <label for="female">Several Days</label><br>
+            <input type="radio" class="third" name="option7" value="third">
+            <label for="other">More than half the days</label><br>
+            <input type="radio" class="fourth" name="option7" value="fourth">
+            <label for="other">Nearly every day</label>
+              
+          </fieldset>
+          
+          <fieldset>
+            <p>8. Moving or speaking so slowly that other people could have noticed</p>
+            <input type="radio" class="first" name="option8" value="first">
+            <label for="male">Not at all</label><br>
+            <input type="radio" class="second" name="option8" value="second">
+            <label for="female">Several Days</label><br>
+            <input type="radio" class="third" name="option8" value="third">
+            <label for="other">More than half the days</label><br>
+            <input type="radio" class="fourth" name="option8" value="fourth">
+            <label for="other">Nearly every day</label>
+              
+          </fieldset>
+
+          <fieldset>
+            <p>9. Thoughts that you would be better off dead, or of hurting yourself</p>
+            <input type="radio" class="first" name="option9" value="first">
+            <label for="male">Not at all</label><br>
+            <input type="radio" class="second" name="option9" value="second">
+            <label for="female">Several Days</label><br>
+            <input type="radio" class="third" name="option9" value="third">
+            <label for="other">More than half the days</label><br>
+            <input type="radio" class="fourth" name="option9" value="fourth">
+            <label for="other">Nearly every day</label>
+              
+          </fieldset>
+
+          <fieldset>
+            <p>10. If you checked off any problems, how difficult have these problems made it for you at work, home, or with other people?</p>
+            <input type="radio" class="first" name="option10" value="first">
+            <label for="male">Not at all</label><br>
+            <input type="radio" class="second" name="option10" value="second">
+            <label for="female">Several Days</label><br>
+            <input type="radio" class="third" name="option10" value="third">
+            <label for="other">More than half the days</label><br>
+            <input type="radio" class="fourth" name="option10" value="fourth">
+            <label for="other">Nearly every day</label>
+              
+          </fieldset>
+
+      </div>
     </div>
+    
     <footer>
         <div class="row">
             <div class="col-3">Copyright  &#169 2020</div>
